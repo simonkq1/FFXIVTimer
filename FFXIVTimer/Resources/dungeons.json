@@ -1,0 +1,28 @@
+{
+    "version": "1.0",
+    "dungeons": {
+        "savage": [
+            {
+                "id": 1,
+                "key": "eden",
+                "difficulty": "savage",
+                "chapters": [
+                    {
+                        "id": 1,
+                        "key": "e1s",
+                        "time": 5400,
+                        "il": 440,
+                        "rewards": [
+                            {"part": "waist", "il": 470},
+                            {"part": "earrings", "il": 470},
+                            {"part": "necklace", "il": 470},
+                            {"part": "bracelets", "il": 470},
+                            {"part": "ring", "il": 470}
+                        ],
+                        "timeLine": {"name": "TimeLine_Eden1Savage", "type": "json"}
+                    }
+                ]
+            }
+        ]
+    }
+}
