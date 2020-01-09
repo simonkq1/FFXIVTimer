@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85D3246023C6D03C00579706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3245F23C6D03C00579706 /* AppDelegate.swift */; };
+		85D3246223C6D03C00579706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3246123C6D03C00579706 /* SceneDelegate.swift */; };
+		85D3246423C6D03C00579706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3246323C6D03C00579706 /* ContentView.swift */; };
+		85D3246623C6D05100579706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D3246523C6D05100579706 /* Assets.xcassets */; };
+		85D3246923C6D05100579706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D3246823C6D05100579706 /* Preview Assets.xcassets */; };
+		85D3246C23C6D05100579706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D3246A23C6D05100579706 /* LaunchScreen.storyboard */; };
+		85D3247723C6D05200579706 /* FFXIVTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3247623C6D05200579706 /* FFXIVTimerTests.swift */; };
+		85D3248223C6D05200579706 /* FFXIVTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3248123C6D05200579706 /* FFXIVTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85D3247323C6D05200579706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D3245423C6D03C00579706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D3245B23C6D03C00579706;
+			remoteInfo = FFXIVTimer;
+		};
+		85D3247E23C6D05200579706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D3245423C6D03C00579706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D3245B23C6D03C00579706;
+			remoteInfo = FFXIVTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85D3245C23C6D03C00579706 /* FFXIVTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFXIVTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D3245F23C6D03C00579706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85D3246123C6D03C00579706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85D3246323C6D03C00579706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85D3246523C6D05100579706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85D3246823C6D05100579706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85D3246B23C6D05100579706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85D3246D23C6D05100579706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D3247223C6D05200579706 /* FFXIVTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFXIVTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D3247623C6D05200579706 /* FFXIVTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVTimerTests.swift; sourceTree = "<group>"; };
+		85D3247823C6D05200579706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D3247D23C6D05200579706 /* FFXIVTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFXIVTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D3248123C6D05200579706 /* FFXIVTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVTimerUITests.swift; sourceTree = "<group>"; };
+		85D3248323C6D05200579706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85D3245923C6D03C00579706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D3246F23C6D05200579706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D3247A23C6D05200579706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85D3245323C6D03C00579706 = {
+			isa = PBXGroup;
+			children = (
+				85D3245E23C6D03C00579706 /* FFXIVTimer */,
+				85D3247523C6D05200579706 /* FFXIVTimerTests */,
+				85D3248023C6D05200579706 /* FFXIVTimerUITests */,
+				85D3245D23C6D03C00579706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85D3245D23C6D03C00579706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85D3245C23C6D03C00579706 /* FFXIVTimer.app */,
+				85D3247223C6D05200579706 /* FFXIVTimerTests.xctest */,
+				85D3247D23C6D05200579706 /* FFXIVTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85D3245E23C6D03C00579706 /* FFXIVTimer */ = {
+			isa = PBXGroup;
+			children = (
+				85D3245F23C6D03C00579706 /* AppDelegate.swift */,
+				85D3246123C6D03C00579706 /* SceneDelegate.swift */,
+				85D3246323C6D03C00579706 /* ContentView.swift */,
+				85D3246523C6D05100579706 /* Assets.xcassets */,
+				85D3246A23C6D05100579706 /* LaunchScreen.storyboard */,
+				85D3246D23C6D05100579706 /* Info.plist */,
+				85D3246723C6D05100579706 /* Preview Content */,
+			);
+			path = FFXIVTimer;
+			sourceTree = "<group>";
+		};
+		85D3246723C6D05100579706 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85D3246823C6D05100579706 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85D3247523C6D05200579706 /* FFXIVTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				85D3247623C6D05200579706 /* FFXIVTimerTests.swift */,
+				85D3247823C6D05200579706 /* Info.plist */,
+			);
+			path = FFXIVTimerTests;
+			sourceTree = "<group>";
+		};
+		85D3248023C6D05200579706 /* FFXIVTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85D3248123C6D05200579706 /* FFXIVTimerUITests.swift */,
+				85D3248323C6D05200579706 /* Info.plist */,
+			);
+			path = FFXIVTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85D3245B23C6D03C00579706 /* FFXIVTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D3248623C6D05200579706 /* Build configuration list for PBXNativeTarget "FFXIVTimer" */;
+			buildPhases = (
+				85D3245823C6D03C00579706 /* Sources */,
+				85D3245923C6D03C00579706 /* Frameworks */,
+				85D3245A23C6D03C00579706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFXIVTimer;
+			productName = FFXIVTimer;
+			productReference = 85D3245C23C6D03C00579706 /* FFXIVTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85D3247123C6D05200579706 /* FFXIVTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D3248923C6D05200579706 /* Build configuration list for PBXNativeTarget "FFXIVTimerTests" */;
+			buildPhases = (
+				85D3246E23C6D05200579706 /* Sources */,
+				85D3246F23C6D05200579706 /* Frameworks */,
+				85D3247023C6D05200579706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D3247423C6D05200579706 /* PBXTargetDependency */,
+			);
+			name = FFXIVTimerTests;
+			productName = FFXIVTimerTests;
+			productReference = 85D3247223C6D05200579706 /* FFXIVTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85D3247C23C6D05200579706 /* FFXIVTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D3248C23C6D05200579706 /* Build configuration list for PBXNativeTarget "FFXIVTimerUITests" */;
+			buildPhases = (
+				85D3247923C6D05200579706 /* Sources */,
+				85D3247A23C6D05200579706 /* Frameworks */,
+				85D3247B23C6D05200579706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D3247F23C6D05200579706 /* PBXTargetDependency */,
+			);
+			name = FFXIVTimerUITests;
+			productName = FFXIVTimerUITests;
+			productReference = 85D3247D23C6D05200579706 /* FFXIVTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85D3245423C6D03C00579706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "JETEC ELETRONICS";
+				TargetAttributes = {
+					85D3245B23C6D03C00579706 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					85D3247123C6D05200579706 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 85D3245B23C6D03C00579706;
+					};
+					85D3247C23C6D05200579706 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 85D3245B23C6D03C00579706;
+					};
+				};
+			};
+			buildConfigurationList = 85D3245723C6D03C00579706 /* Build configuration list for PBXProject "FFXIVTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85D3245323C6D03C00579706;
+			productRefGroup = 85D3245D23C6D03C00579706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85D3245B23C6D03C00579706 /* FFXIVTimer */,
+				85D3247123C6D05200579706 /* FFXIVTimerTests */,
+				85D3247C23C6D05200579706 /* FFXIVTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85D3245A23C6D03C00579706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D3246C23C6D05100579706 /* LaunchScreen.storyboard in Resources */,
+				85D3246923C6D05100579706 /* Preview Assets.xcassets in Resources */,
+				85D3246623C6D05100579706 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D3247023C6D05200579706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D3247B23C6D05200579706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D3245823C6D03C00579706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D3246023C6D03C00579706 /* AppDelegate.swift in Sources */,
+				85D3246223C6D03C00579706 /* SceneDelegate.swift in Sources */,
+				85D3246423C6D03C00579706 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D3246E23C6D05200579706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D3247723C6D05200579706 /* FFXIVTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D3247923C6D05200579706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D3248223C6D05200579706 /* FFXIVTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85D3247423C6D05200579706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D3245B23C6D03C00579706 /* FFXIVTimer */;
+			targetProxy = 85D3247323C6D05200579706 /* PBXContainerItemProxy */;
+		};
+		85D3247F23C6D05200579706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D3245B23C6D03C00579706 /* FFXIVTimer */;
+			targetProxy = 85D3247E23C6D05200579706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85D3246A23C6D05100579706 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85D3246B23C6D05100579706 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85D3248423C6D05200579706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85D3248523C6D05200579706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85D3248723C6D05200579706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FFXIVTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XZK355NL8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FFXIVTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetec.ios.FFXIVTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85D3248823C6D05200579706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FFXIVTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XZK355NL8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FFXIVTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetec.ios.FFXIVTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85D3248A23C6D05200579706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XZK355NL8;
+				INFOPLIST_FILE = FFXIVTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetec.ios.FFXIVTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFXIVTimer.app/FFXIVTimer";
+			};
+			name = Debug;
+		};
+		85D3248B23C6D05200579706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XZK355NL8;
+				INFOPLIST_FILE = FFXIVTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetec.ios.FFXIVTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFXIVTimer.app/FFXIVTimer";
+			};
+			name = Release;
+		};
+		85D3248D23C6D05200579706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XZK355NL8;
+				INFOPLIST_FILE = FFXIVTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetec.ios.FFXIVTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFXIVTimer;
+			};
+			name = Debug;
+		};
+		85D3248E23C6D05200579706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XZK355NL8;
+				INFOPLIST_FILE = FFXIVTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetec.ios.FFXIVTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFXIVTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85D3245723C6D03C00579706 /* Build configuration list for PBXProject "FFXIVTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D3248423C6D05200579706 /* Debug */,
+				85D3248523C6D05200579706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D3248623C6D05200579706 /* Build configuration list for PBXNativeTarget "FFXIVTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D3248723C6D05200579706 /* Debug */,
+				85D3248823C6D05200579706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D3248923C6D05200579706 /* Build configuration list for PBXNativeTarget "FFXIVTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D3248A23C6D05200579706 /* Debug */,
+				85D3248B23C6D05200579706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D3248C23C6D05200579706 /* Build configuration list for PBXNativeTarget "FFXIVTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D3248D23C6D05200579706 /* Debug */,
+				85D3248E23C6D05200579706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85D3245423C6D03C00579706 /* Project object */;
+}
