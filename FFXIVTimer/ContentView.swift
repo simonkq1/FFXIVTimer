@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model: Model
+    @State var isAlert = false
     var body: some View {
-        Text("Hello, World!")
+        List(model.dungeons) { (dungeon) in
+            VStack {
+                Section {
+                    Text(dungeon.key)
+                }.onTapGesture {
+                    print()
+                }
+                /*
+                Text(dungeon.key).alert(isPresented: self.$isAlert) { () -> Alert in
+                }
+                 */
+            }.padding(.leading, 20)
+        }
+    }
+    
+    func tapSection() {
+        
     }
 }
 
@@ -19,3 +37,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

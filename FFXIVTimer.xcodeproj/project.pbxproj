@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85A16FC123C80D7500E3EDCE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16FC023C80D7500E3EDCE /* Extensions.swift */; };
+		85A16FC323C80D7E00E3EDCE /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16FC223C80D7E00E3EDCE /* UIExtensions.swift */; };
+		85A16FC523C8267000E3EDCE /* Information.json in Resources */ = {isa = PBXBuildFile; fileRef = 85A16FC423C8267000E3EDCE /* Information.json */; };
+		85A16FC723C8281800E3EDCE /* TimeLine_Eden2Savage.json in Resources */ = {isa = PBXBuildFile; fileRef = 85A16FC623C8281800E3EDCE /* TimeLine_Eden2Savage.json */; };
+		85A16FC923C8282300E3EDCE /* TimeLine_Eden3Savage.json in Resources */ = {isa = PBXBuildFile; fileRef = 85A16FC823C8282300E3EDCE /* TimeLine_Eden3Savage.json */; };
+		85A16FCB23C8282C00E3EDCE /* TimeLine_Eden4Savage.json in Resources */ = {isa = PBXBuildFile; fileRef = 85A16FCA23C8282C00E3EDCE /* TimeLine_Eden4Savage.json */; };
+		85A16FCD23C846E600E3EDCE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16FCC23C846E600E3EDCE /* Model.swift */; };
+		85A16FCF23C84B2400E3EDCE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16FCE23C84B2400E3EDCE /* Constants.swift */; };
 		85D3246023C6D03C00579706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3245F23C6D03C00579706 /* AppDelegate.swift */; };
 		85D3246223C6D03C00579706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3246123C6D03C00579706 /* SceneDelegate.swift */; };
 		85D3246423C6D03C00579706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D3246323C6D03C00579706 /* ContentView.swift */; };
@@ -39,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85A16FC023C80D7500E3EDCE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		85A16FC223C80D7E00E3EDCE /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		85A16FC423C8267000E3EDCE /* Information.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Information.json; sourceTree = "<group>"; };
+		85A16FC623C8281800E3EDCE /* TimeLine_Eden2Savage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TimeLine_Eden2Savage.json; sourceTree = "<group>"; };
+		85A16FC823C8282300E3EDCE /* TimeLine_Eden3Savage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TimeLine_Eden3Savage.json; sourceTree = "<group>"; };
+		85A16FCA23C8282C00E3EDCE /* TimeLine_Eden4Savage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TimeLine_Eden4Savage.json; sourceTree = "<group>"; };
+		85A16FCC23C846E600E3EDCE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		85A16FCE23C84B2400E3EDCE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		85D3245C23C6D03C00579706 /* FFXIVTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFXIVTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D3245F23C6D03C00579706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D3246123C6D03C00579706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85A16FBF23C80D4600E3EDCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85A16FC023C80D7500E3EDCE /* Extensions.swift */,
+				85A16FC223C80D7E00E3EDCE /* UIExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		85D3245323C6D03C00579706 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +132,9 @@
 		85D3245E23C6D03C00579706 /* FFXIVTimer */ = {
 			isa = PBXGroup;
 			children = (
-				85D3249523C718D300579706 /* Models */,
 				85D3248F23C6D69500579706 /* Resources */,
+				85A16FBF23C80D4600E3EDCE /* Extensions */,
+				85D3249523C718D300579706 /* Models */,
 				85D3245F23C6D03C00579706 /* AppDelegate.swift */,
 				85D3246123C6D03C00579706 /* SceneDelegate.swift */,
 				85D3246323C6D03C00579706 /* ContentView.swift */,
@@ -150,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				85D3249423C7004F00579706 /* TimeLine */,
+				85A16FC423C8267000E3EDCE /* Information.json */,
 				85D3249023C6D71600579706 /* dungeons.json */,
 			);
 			path = Resources;
@@ -159,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				85D3249223C7003A00579706 /* TimeLine_Eden1Savage.json */,
+				85A16FC623C8281800E3EDCE /* TimeLine_Eden2Savage.json */,
+				85A16FC823C8282300E3EDCE /* TimeLine_Eden3Savage.json */,
+				85A16FCA23C8282C00E3EDCE /* TimeLine_Eden4Savage.json */,
 			);
 			path = TimeLine;
 			sourceTree = "<group>";
@@ -166,8 +196,10 @@
 		85D3249523C718D300579706 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85A16FCC23C846E600E3EDCE /* Model.swift */,
 				85D3249623C718E700579706 /* Dungeon.swift */,
 				85D3249823C71E7000579706 /* TimeLine.swift */,
+				85A16FCE23C84B2400E3EDCE /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +214,7 @@
 				85D3245823C6D03C00579706 /* Sources */,
 				85D3245923C6D03C00579706 /* Frameworks */,
 				85D3245A23C6D03C00579706 /* Resources */,
+				85A16FD323C86E3C00E3EDCE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -277,10 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D3249123C6D71600579706 /* dungeons.json in Resources */,
+				85A16FC523C8267000E3EDCE /* Information.json in Resources */,
+				85A16FC723C8281800E3EDCE /* TimeLine_Eden2Savage.json in Resources */,
 				85D3246C23C6D05100579706 /* LaunchScreen.storyboard in Resources */,
 				85D3249323C7003A00579706 /* TimeLine_Eden1Savage.json in Resources */,
+				85A16FC923C8282300E3EDCE /* TimeLine_Eden3Savage.json in Resources */,
 				85D3246923C6D05100579706 /* Preview Assets.xcassets in Resources */,
 				85D3246623C6D05100579706 /* Assets.xcassets in Resources */,
+				85A16FCB23C8282C00E3EDCE /* TimeLine_Eden4Savage.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,16 +337,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85A16FD323C86E3C00E3EDCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(date +%Y%m%d%H%M%S)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85D3245823C6D03C00579706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				85D3249923C71E7000579706 /* TimeLine.swift in Sources */,
+				85A16FC323C80D7E00E3EDCE /* UIExtensions.swift in Sources */,
+				85A16FC123C80D7500E3EDCE /* Extensions.swift in Sources */,
 				85D3249723C718E700579706 /* Dungeon.swift in Sources */,
 				85D3246023C6D03C00579706 /* AppDelegate.swift in Sources */,
 				85D3246223C6D03C00579706 /* SceneDelegate.swift in Sources */,
 				85D3246423C6D03C00579706 /* ContentView.swift in Sources */,
+				85A16FCD23C846E600E3EDCE /* Model.swift in Sources */,
+				85A16FCF23C84B2400E3EDCE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

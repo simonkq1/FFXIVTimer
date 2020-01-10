@@ -10,7 +10,7 @@ import XCTest
 @testable import FFXIVTimer
 
 class FFXIVTimerTests: XCTestCase {
-
+    let model = Model(["version": "1.0.0"])
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -22,6 +22,7 @@ class FFXIVTimerTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        print(model)
     }
 
     func testPerformanceExample() {

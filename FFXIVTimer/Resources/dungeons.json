@@ -1,28 +1,60 @@
-{
-    "version": "1.0",
-    "dungeons": {
-        "savage": [
+[
+    {
+        "id": 1,
+        "key": "eden",
+        "difficulty": "savage",
+        "chapters": [
             {
                 "id": 1,
-                "key": "eden",
-                "difficulty": "savage",
-                "chapters": [
-                    {
-                        "id": 1,
-                        "key": "e1s",
-                        "time": 5400,
-                        "il": 440,
-                        "rewards": [
-                            {"part": "waist", "il": 470},
-                            {"part": "earrings", "il": 470},
-                            {"part": "necklace", "il": 470},
-                            {"part": "bracelets", "il": 470},
-                            {"part": "ring", "il": 470}
-                        ],
-                        "timeLine": {"name": "TimeLine_Eden1Savage", "type": "json"}
-                    }
-                ]
+                "key": "e1s",
+                "time": 5400,
+                "il": 440,
+                "rewards": [
+                    {"part": "waist", "type": "equipment", "il": 470},
+                    {"part": "earrings", "type": "equipment", "il": 470},
+                    {"part": "necklace", "type": "equipment", "il": 470},
+                    {"part": "bracelets", "type": "equipment", "il": 470},
+                    {"part": "ring", "type": "equipment", "il": 470}
+                ],
+                "timeline": {"name": "TimeLine_Eden1Savage", "type": "json"}
+            },
+            {
+                "id": 2,
+                "key": "e2s",
+                "time": 5400,
+                "il": 445,
+                "rewards": [
+                    {"part": "head", "type": "equipment", "il": 470},
+                    {"part": "hands", "type": "equipment", "il": 470},
+                    {"part": "feet", "type": "equipment", "il": 470}
+                ],
+                "timeline": {"name": "TimeLine_Eden2Savage", "type": "json"}
+            },
+            {
+                "id": 3,
+                "key": "e3s",
+                "time": 5400,
+                "il": 450,
+                "rewards": [
+                    {"part": "legs", "type": "equipment", "il": 470}
+                ],
+                "timeline": {"name": "TimeLine_Eden3Savage", "type": "json"}
+            },
+            {
+                "id": 4,
+                "key": "e4s",
+                "time": 7200,
+                "il": 450,
+                "rewards": [
+                    {"part": "weapons", "type": "equipment", "il": 475},
+                    {"part": "shield", "type": "equipment", "il": 475},
+                    {"part": "body", "type": "equipment", "il": 470}
+                ],
+                "timeline": {"name": "TimeLine_Eden4Savage", "type": "json"}
             }
         ]
     }
-}
+]
+ 
+ 
+ 
