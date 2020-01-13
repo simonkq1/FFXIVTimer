@@ -17,3 +17,8 @@ struct Machine {
     let name: String
     let style: String
 }
+
+
+extension Machine {
+    
+}

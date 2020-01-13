@@ -12,21 +12,22 @@ struct ContentView: View {
     @EnvironmentObject var model: Model
     @State var isAlert = false
     var body: some View {
-        List(model.dungeons) { (dungeon) in
+        var show: [Bool] = Array(repeating: false, count: self.model.dungeons.count)
+        return List(model.dungeons) { (dungeon) in
             VStack {
                 Section {
                     Text(dungeon.key)
-                }.onTapGesture {
-                    print()
+                }
+                .onTapGesture {
+                    print(dungeon.key)
                 }
                 /*
-                Text(dungeon.key).alert(isPresented: self.$isAlert) { () -> Alert in
-                }
+                 Text(dungeon.key).alert(isPresented: self.$isAlert) { () -> Alert in
+                 }
                  */
             }.padding(.leading, 20)
         }
     }
-    
     func tapSection() {
         
     }

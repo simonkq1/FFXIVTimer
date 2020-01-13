@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85792EEC23CC1B8500F504C8 /* TimeLineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85792EEB23CC1B8500F504C8 /* TimeLineListView.swift */; };
 		85A16FC123C80D7500E3EDCE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16FC023C80D7500E3EDCE /* Extensions.swift */; };
 		85A16FC323C80D7E00E3EDCE /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16FC223C80D7E00E3EDCE /* UIExtensions.swift */; };
 		85A16FC523C8267000E3EDCE /* Information.json in Resources */ = {isa = PBXBuildFile; fileRef = 85A16FC423C8267000E3EDCE /* Information.json */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85792EEB23CC1B8500F504C8 /* TimeLineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineListView.swift; sourceTree = "<group>"; };
 		85A16FC023C80D7500E3EDCE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		85A16FC223C80D7E00E3EDCE /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		85A16FC423C8267000E3EDCE /* Information.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Information.json; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				85D3245F23C6D03C00579706 /* AppDelegate.swift */,
 				85D3246123C6D03C00579706 /* SceneDelegate.swift */,
 				85D3246323C6D03C00579706 /* ContentView.swift */,
+				85792EEB23CC1B8500F504C8 /* TimeLineListView.swift */,
 				85D3246523C6D05100579706 /* Assets.xcassets */,
 				85D3246A23C6D05100579706 /* LaunchScreen.storyboard */,
 				85D3246D23C6D05100579706 /* Info.plist */,
@@ -365,6 +368,7 @@
 				85D3249923C71E7000579706 /* TimeLine.swift in Sources */,
 				85A16FC323C80D7E00E3EDCE /* UIExtensions.swift in Sources */,
 				85A16FC123C80D7500E3EDCE /* Extensions.swift in Sources */,
+				85792EEC23CC1B8500F504C8 /* TimeLineListView.swift in Sources */,
 				85D3249723C718E700579706 /* Dungeon.swift in Sources */,
 				85D3246023C6D03C00579706 /* AppDelegate.swift in Sources */,
 				85D3246223C6D03C00579706 /* SceneDelegate.swift in Sources */,
